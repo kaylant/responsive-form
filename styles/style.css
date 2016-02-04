@@ -10,7 +10,7 @@ body {
  
 form {
 	max-width: 1200px;
-	margin: 100px auto;
+	margin: 50px auto;
 	background: #5BA3D6;
 }
 
@@ -115,6 +115,8 @@ textarea[type="textarea"] {
 @media only screen and (max-width: 768px) {
   .column {
     overflow: hidden;
+    display: block;
+    width: 100%;
   }
   .column > div {
     float: left;
