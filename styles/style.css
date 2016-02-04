@@ -1,0 +1,125 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 0;
+}
+
+/* overall form styings */
+ 
+form {
+	max-width: 1200px;
+	margin: 100px auto;
+	background: #5BA3D6;
+}
+
+.column {
+	width: 300px;
+	display: inline-block;
+	margin: 20px 50px;
+	vertical-align: top;
+}
+
+.column > div {
+	padding: 1em 1em 0;
+}
+
+h1 {
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+/* inputs */
+input {
+	width: 300px;
+  	height: 50px;
+ 	margin: 0 auto 10px;
+  	border: 2px solid #fff;
+  	background: #5BA3D6;
+  	transition: .5s border ease;
+}
+
+input:focus {
+	 border: 2px solid #3678A7;
+}
+
+input[type="text"] {
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+	color: #3678A7;
+	font-size: 16px;
+	font-style: italic;
+}
+
+::-moz-input-placeholder {
+	color: #3678A7;
+	font-size: 16px;
+	font-style: italic;
+}
+
+
+input[type="email"] {
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	outline: none;
+}
+
+input[type="tel"] {
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	outline: none;
+}
+
+select {
+   	outline: none;
+	width: 300px;
+	height: 30px;
+	background: #5BA3D6;
+	padding-left: 5px;
+	font-style: sans-serif;
+	color: #fff;
+	font-size: 14px;
+	margin: 0 auto 10px;
+}
+
+textarea {
+	width: 300px;
+  	height: 150px;
+ 	margin: 0 auto 10px;
+  	border: 2px solid #fff;
+  	background: #5BA3D6;
+}
+
+textarea:focus {
+	 border: 2px solid #3678A7;
+}
+
+textarea[type="textarea"] {
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	outline: none;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 768px) {
+  .column {
+    overflow: hidden;
+  }
+  .column > div {
+    float: left;
+    width: 33.3333333%;
+  }
+}
+
+
